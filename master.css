@@ -1,0 +1,241 @@
+
+@font-face {
+    font-family: 'Sacramento';
+    src: url('Sacramento-Regular.woff2') format('woff2'),
+        url('Sacramento-Regular.woff') format('woff'),
+        url('Sacramento-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-LightItalic.woff2') format('woff2'),
+        url('Montserrat-LightItalic.woff') format('woff'),
+        url('Montserrat-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Italic.woff2') format('woff2'),
+        url('Montserrat-Italic.woff') format('woff'),
+        url('Montserrat-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Light.woff2') format('woff2'),
+        url('Montserrat-Light.woff') format('woff'),
+        url('Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff'),
+        url('Montserrat-Regular.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color:#22a39c;
+}
+body{
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  font-size: larger;
+  text-align: center;
+}
+div{
+  margin: 0;
+}
+h1 {
+    margin: 0.625;
+    font-size: 5.2rem;
+}
+h2{
+  font-size: 3.2rem;
+  margin-top: 0;
+  padding-top: 0.625rem;
+  color: #267481;
+}
+h4{
+  margin-block-end: 0.33em;
+}
+header{
+  top: 0;
+  background-color: #f3efe0;
+  display: inline-flex;
+  height: 7.5rem;
+  width: 100%;
+}
+header a{
+  text-decoration: none;
+  padding: 0.5% 2% 0.5% 2%;
+  border: solid #22a39c 0.125;
+  display: inline-block;
+  color: #22a39c;
+  border-radius: 0.313rem;
+  margin: auto;
+}
+header a:hover{
+  background-color: #22a39c;
+  color: #222;
+  opacity: 0.7;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 0.313rem;
+  border-color: #727878;
+  height: 0.125rem;
+  width: 3.5%;
+  background-color: inherit;
+  opacity: 0.2;
+  margin-bottom: 0;
+}
+.resume-button{
+  text-decoration: none;
+  padding: 0.2% 4% 0.2% 4%;
+  border: solid #22a39c 0.125rem;
+  display: inline-block;
+  color: #22a39c;
+  border-radius: 1.25rem;
+  margin: auto;
+  background-color: inherit;
+  font-size: 37px;
+  font-family: Sacramento;
+}
+.active{
+  background-color: #22a39c;
+  color: #222;
+}
+.bottom-cloud{
+  left: 18.75rem;
+  bottom: 18.75rem;
+}
+.c1{
+  background-color: #f3efe0;
+  padding: 1.25rem;
+  padding-bottom: 0;
+  /*position: relative;*/
+}
+.c2{
+  background-color: #ebfffa;
+  padding: 0;
+}
+.center{
+  width: inherit;
+  display: inline-flex;
+  text-align: center;
+  margin: auto;
+}
+.center {
+    width: 80%;
+    display: inline-flex;
+    margin: auto 0.625rem auto auto;
+  }
+.cloud{
+    position: absolute;
+    width: 10.938rem;
+  }
+.edu-left{
+  width: 29%;
+  display: inline-block;
+  vertical-align: text-top;
+  text-align: left;
+}
+.edu-right{
+  width: 69%;
+  display: inline-block;
+  vertical-align: text-top;
+  text-align: left;
+}
+.fa-paper-plane{
+  /*height:42px;
+  width:42px;*/
+  font-size: 42rem;
+}
+.footer{
+    background-color: #424242;
+    opacity: 0.7;
+    width: 100%;
+  }
+i.fas{
+    color:#22a39c;
+    font-size: smaller;
+}
+i.far{
+    color:#22a39c;
+    font-size: smaller;
+}
+.mountain{
+    position: relative;
+    top: 0.313rem;
+}
+.padding {
+  margin-top: 4.375rem;
+  padding-top: 2.5rem;
+}
+.pc1{
+  text-align: left;
+}
+.pc2{
+  text-align: center;
+  margin-left: auto;
+}
+.pc3{
+  text-align: right;
+  margin-bottom: auto;
+  height: 20.75rem;
+}
+.profile{
+  margin-top: 1.875rem;
+}
+.profile-content{
+  width: 32.9%;
+  display: inline-block;
+}
+.Sacra {
+  font-family: Sacramento;
+  font-style: normal;
+  font-weight: normal;
+}
+.skill-resume{
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+.skills-image-homepage{
+  border-radius: 100%;
+  height: 8rem;
+  float: left;
+  margin-right: 25px;
+}
+.skills-row-homepage{
+  width: 50%;
+  margin: 6rem auto 6rem auto;
+  text-align: left;
+}
+.star-span{
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+  display: inline /*-block*/;
+  /*width: 30%;*/
+  float: right;
+}
+.top-cloud{
+  right: 16.75rem;
+  top: 2.2rem;
+}
+.width-adj{
+  /*width: 70%;*/
+  padding: 0 15% 1.5rem 15%;
+  position: relative;
+}
